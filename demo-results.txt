@@ -1,0 +1,17 @@
+Ontology-driven simulation
+Command: python simulation.py
+
+Tick 1: {'Alex': 'infected', 'Sam': 'zombie'}
+Tick 2: {'Alex': 'zombie', 'Sam': 'zombie'}
+Rejected: Illegal transition: zombie + bite
+Rejected: Multiple events for Alex
+
+Baseline simulation
+Command: python compare_baseline.py
+
+Tick 1: {'Alex': 'infected', 'Sam': 'zombie'}
+Tick 2: {'Alex': 'zombie', 'Sam': 'zombie'}
+Rejected: Illegal transition: zombie + bite
+Original state preserved: True
+Rejected: Multiple events for Alex
+Original state preserved: True

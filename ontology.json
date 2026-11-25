@@ -1,0 +1,18 @@
+{
+  "states": {
+    "human": {
+      "wait": "human",
+      "move": "human",
+      "bite": "infected"
+    },
+    "infected": {
+      "wait": "infected",
+      "turn": "zombie"
+    },
+    "zombie": {
+      "wait": "zombie",
+      "move": "zombie"
+    }
+  },
+  "max_events_per_actor_per_tick": 1
+}
